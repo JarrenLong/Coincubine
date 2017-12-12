@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<CoincubineSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Currencies>
+    <Currency Name="Aeon" Symbol="AEON" Balance="0.00000000" UnlockedBalance="0.00000000">
+      <DaemonBinPath>.\aeon\aeond.exe</DaemonBinPath>
+      <WalletBinPath>.\aeon\simplewallet.exe</WalletBinPath>
+      <WalletFilePath>.\wallets\aeon.wallet</WalletFilePath>
+      <WalletKeysFilePath>.\wallets\aeon.wallet.keys</WalletKeysFilePath>
+    </Currency>
+    <Currency Name="Dashcoin" Symbol="DSH" Balance="0.00000000" UnlockedBalance="0.00000000">
+      <DaemonBinPath>.\dashcoin\aeond.exe</DaemonBinPath>
+      <WalletBinPath>.\dashcoin\simplewallet.exe</WalletBinPath>
+      <WalletFilePath>.\wallets\dashcoin.wallet</WalletFilePath>
+      <WalletKeysFilePath>.\wallets\dashcoin.wallet.keys</WalletKeysFilePath>
+    </Currency>
+    <Currency Name="QuazarCoin" Symbol="QCN" Balance="0.00000000" UnlockedBalance="0.00000000">
+      <DaemonBinPath>.\quazar\aeond.exe</DaemonBinPath>
+      <WalletBinPath>.\quazar\simplewallet.exe</WalletBinPath>
+      <WalletFilePath>.\wallets\quazar.wallet</WalletFilePath>
+      <WalletKeysFilePath>.\wallets\quazar.wallet.keys</WalletKeysFilePath>
+    </Currency>
+  </Currencies>
+</CoincubineSettings>
