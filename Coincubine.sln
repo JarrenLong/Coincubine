@@ -11,10 +11,10 @@ Global
 		Release-Net35|Any CPU = Release-Net35|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Debug-Net35|Any CPU.ActiveCfg = Debug-Net35|Any CPU
-		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Debug-Net35|Any CPU.Build.0 = Debug-Net35|Any CPU
-		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Release-Net35|Any CPU.ActiveCfg = Release-Net35|Any CPU
-		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Release-Net35|Any CPU.Build.0 = Release-Net35|Any CPU
+		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Debug-Net35|Any CPU.ActiveCfg = Debug-Net45|Any CPU
+		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Debug-Net35|Any CPU.Build.0 = Debug-Net45|Any CPU
+		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Release-Net35|Any CPU.ActiveCfg = Release-Net45|Any CPU
+		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Release-Net35|Any CPU.Build.0 = Release-Net45|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

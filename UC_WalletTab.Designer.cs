@@ -29,39 +29,39 @@
     private void InitializeComponent()
     {
       System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-      this.groupBoxDaemonLog = new System.Windows.Forms.GroupBox();
-      this.TextBoxDaemon = new System.Windows.Forms.TextBox();
-      this.groupBoxWallet = new System.Windows.Forms.GroupBox();
-      this.label2 = new System.Windows.Forms.Label();
-      this.TextBoxAddress = new System.Windows.Forms.TextBox();
-      this.LabelUnlockedBalance = new System.Windows.Forms.Label();
-      this.label5 = new System.Windows.Forms.Label();
-      this.ButtonExportKeys = new System.Windows.Forms.Button();
-      this.LabelBalance = new System.Windows.Forms.Label();
-      this.label3 = new System.Windows.Forms.Label();
-      this.ButtonImportKeys = new System.Windows.Forms.Button();
-      this.ButtonOpenWallet = new System.Windows.Forms.Button();
-      this.TextBoxPassword = new System.Windows.Forms.TextBox();
-      this.label1 = new System.Windows.Forms.Label();
-      this.groupBoxTransactions = new System.Windows.Forms.GroupBox();
-      this.DataGridViewTransactions = new System.Windows.Forms.DataGridView();
+      this.groupBoxDaemonLog = new LongTech.UI.Controls.GroupBox();
+      this.TextBoxDaemon = new LongTech.UI.Controls.TextBox();
+      this.groupBoxWallet = new LongTech.UI.Controls.GroupBox();
+      this.label2 = new LongTech.UI.Controls.Label();
+      this.TextBoxAddress = new LongTech.UI.Controls.TextBox();
+      this.LabelUnlockedBalance = new LongTech.UI.Controls.Label();
+      this.label5 = new LongTech.UI.Controls.Label();
+      this.ButtonExportKeys = new LongTech.UI.Controls.Button();
+      this.LabelBalance = new LongTech.UI.Controls.Label();
+      this.label3 = new LongTech.UI.Controls.Label();
+      this.ButtonImportKeys = new LongTech.UI.Controls.Button();
+      this.ButtonOpenWallet = new LongTech.UI.Controls.Button();
+      this.TextBoxPassword = new LongTech.UI.Controls.TextBox();
+      this.label1 = new LongTech.UI.Controls.Label();
+      this.groupBoxTransactions = new LongTech.UI.Controls.GroupBox();
+      this.DataGridViewTransactions = new LongTech.UI.Controls.DataGridView();
       this.ColumnAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
       this.ColumnType = new System.Windows.Forms.DataGridViewTextBoxColumn();
       this.ColumnTransactionId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-      this.GroupBoxTransfer = new System.Windows.Forms.GroupBox();
-      this.LabelTotalAmount = new System.Windows.Forms.Label();
-      this.label4 = new System.Windows.Forms.Label();
-      this.buttonDonate = new System.Windows.Forms.Button();
-      this.ButtonSend = new System.Windows.Forms.Button();
-      this.label11 = new System.Windows.Forms.Label();
-      this.TextBoxPaymentId = new System.Windows.Forms.TextBox();
-      this.label10 = new System.Windows.Forms.Label();
-      this.TextBoxMixinCount = new System.Windows.Forms.TextBox();
-      this.label9 = new System.Windows.Forms.Label();
-      this.TextBoxAmount = new System.Windows.Forms.TextBox();
-      this.label8 = new System.Windows.Forms.Label();
-      this.TextBoxDestinationAddress = new System.Windows.Forms.TextBox();
-      this.label7 = new System.Windows.Forms.Label();
+      this.GroupBoxTransfer = new LongTech.UI.Controls.GroupBox();
+      this.LabelTotalAmount = new LongTech.UI.Controls.Label();
+      this.label4 = new LongTech.UI.Controls.Label();
+      this.buttonDonate = new LongTech.UI.Controls.Button();
+      this.ButtonSend = new LongTech.UI.Controls.Button();
+      this.label11 = new LongTech.UI.Controls.Label();
+      this.TextBoxPaymentId = new LongTech.UI.Controls.TextBox();
+      this.label10 = new LongTech.UI.Controls.Label();
+      this.TextBoxMixinCount = new LongTech.UI.Controls.TextBox();
+      this.label9 = new LongTech.UI.Controls.Label();
+      this.TextBoxAmount = new LongTech.UI.Controls.TextBox();
+      this.label8 = new LongTech.UI.Controls.Label();
+      this.TextBoxDestinationAddress = new LongTech.UI.Controls.TextBox();
+      this.label7 = new LongTech.UI.Controls.Label();
       this.groupBoxDaemonLog.SuspendLayout();
       this.groupBoxWallet.SuspendLayout();
       this.groupBoxTransactions.SuspendLayout();
@@ -71,9 +71,7 @@
       // 
       // groupBoxDaemonLog
       // 
-      this.groupBoxDaemonLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+      this.groupBoxDaemonLog.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
       this.groupBoxDaemonLog.Controls.Add(this.TextBoxDaemon);
       this.groupBoxDaemonLog.Location = new System.Drawing.Point(3, 407);
       this.groupBoxDaemonLog.Name = "groupBoxDaemonLog";
@@ -99,8 +97,7 @@
       // 
       // groupBoxWallet
       // 
-      this.groupBoxWallet.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+      this.groupBoxWallet.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
       this.groupBoxWallet.Controls.Add(this.label2);
       this.groupBoxWallet.Controls.Add(this.TextBoxAddress);
       this.groupBoxWallet.Controls.Add(this.LabelUnlockedBalance);
@@ -225,8 +222,7 @@
       // 
       // groupBoxTransactions
       // 
-      this.groupBoxTransactions.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+      this.groupBoxTransactions.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
       this.groupBoxTransactions.Controls.Add(this.DataGridViewTransactions);
       this.groupBoxTransactions.Location = new System.Drawing.Point(3, 291);
       this.groupBoxTransactions.Name = "groupBoxTransactions";
@@ -280,8 +276,7 @@
       // 
       // GroupBoxTransfer
       // 
-      this.GroupBoxTransfer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+      this.GroupBoxTransfer.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
       this.GroupBoxTransfer.Controls.Add(this.LabelTotalAmount);
       this.GroupBoxTransfer.Controls.Add(this.label4);
       this.GroupBoxTransfer.Controls.Add(this.buttonDonate);
@@ -442,38 +437,38 @@
 
     #endregion
 
-    private System.Windows.Forms.GroupBox groupBoxDaemonLog;
-    private System.Windows.Forms.TextBox TextBoxDaemon;
-    private System.Windows.Forms.GroupBox groupBoxWallet;
-    private System.Windows.Forms.Label label2;
-    private System.Windows.Forms.TextBox TextBoxAddress;
-    private System.Windows.Forms.Label LabelUnlockedBalance;
-    private System.Windows.Forms.Label label5;
-    private System.Windows.Forms.Button ButtonExportKeys;
-    private System.Windows.Forms.Label LabelBalance;
-    private System.Windows.Forms.Label label3;
-    private System.Windows.Forms.Button ButtonImportKeys;
-    private System.Windows.Forms.Button ButtonOpenWallet;
-    private System.Windows.Forms.TextBox TextBoxPassword;
-    private System.Windows.Forms.Label label1;
-    private System.Windows.Forms.GroupBox groupBoxTransactions;
-    private System.Windows.Forms.DataGridView DataGridViewTransactions;
+    private LongTech.UI.Controls.GroupBox groupBoxDaemonLog;
+    private LongTech.UI.Controls.TextBox TextBoxDaemon;
+    private LongTech.UI.Controls.GroupBox groupBoxWallet;
+    private LongTech.UI.Controls.Label label2;
+    private LongTech.UI.Controls.TextBox TextBoxAddress;
+    private LongTech.UI.Controls.Label LabelUnlockedBalance;
+    private LongTech.UI.Controls.Label label5;
+    private LongTech.UI.Controls.Button ButtonExportKeys;
+    private LongTech.UI.Controls.Label LabelBalance;
+    private LongTech.UI.Controls.Label label3;
+    private LongTech.UI.Controls.Button ButtonImportKeys;
+    private LongTech.UI.Controls.Button ButtonOpenWallet;
+    private LongTech.UI.Controls.TextBox TextBoxPassword;
+    private LongTech.UI.Controls.Label label1;
+    private LongTech.UI.Controls.GroupBox groupBoxTransactions;
+    private LongTech.UI.Controls.DataGridView DataGridViewTransactions;
     private System.Windows.Forms.DataGridViewTextBoxColumn ColumnAmount;
     private System.Windows.Forms.DataGridViewTextBoxColumn ColumnType;
     private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTransactionId;
-    private System.Windows.Forms.GroupBox GroupBoxTransfer;
-    private System.Windows.Forms.Label LabelTotalAmount;
-    private System.Windows.Forms.Label label4;
-    private System.Windows.Forms.Button buttonDonate;
-    private System.Windows.Forms.Button ButtonSend;
-    private System.Windows.Forms.Label label11;
-    private System.Windows.Forms.TextBox TextBoxPaymentId;
-    private System.Windows.Forms.Label label10;
-    private System.Windows.Forms.TextBox TextBoxMixinCount;
-    private System.Windows.Forms.Label label9;
-    private System.Windows.Forms.TextBox TextBoxAmount;
-    private System.Windows.Forms.Label label8;
-    private System.Windows.Forms.TextBox TextBoxDestinationAddress;
-    private System.Windows.Forms.Label label7;
+    private LongTech.UI.Controls.GroupBox GroupBoxTransfer;
+    private LongTech.UI.Controls.Label LabelTotalAmount;
+    private LongTech.UI.Controls.Label label4;
+    private LongTech.UI.Controls.Button buttonDonate;
+    private LongTech.UI.Controls.Button ButtonSend;
+    private LongTech.UI.Controls.Label label11;
+    private LongTech.UI.Controls.TextBox TextBoxPaymentId;
+    private LongTech.UI.Controls.Label label10;
+    private LongTech.UI.Controls.TextBox TextBoxMixinCount;
+    private LongTech.UI.Controls.Label label9;
+    private LongTech.UI.Controls.TextBox TextBoxAmount;
+    private LongTech.UI.Controls.Label label8;
+    private LongTech.UI.Controls.TextBox TextBoxDestinationAddress;
+    private LongTech.UI.Controls.Label label7;
   }
 }

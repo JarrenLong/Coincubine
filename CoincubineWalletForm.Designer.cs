@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-      this.TabControlWallet = new System.Windows.Forms.TabControl();
-      this.TabPageStart = new System.Windows.Forms.TabPage();
-      this.ButtonManageCurrencies = new System.Windows.Forms.Button();
-      this.label4 = new System.Windows.Forms.Label();
-      this.ButtonNewCurrency = new System.Windows.Forms.Button();
-      this.label3 = new System.Windows.Forms.Label();
-      this.label2 = new System.Windows.Forms.Label();
-      this.label1 = new System.Windows.Forms.Label();
-      this.PictureBoxLogo = new System.Windows.Forms.PictureBox();
+      this.TabControlWallet = new LongTech.UI.Controls.TabControl();
+      this.TabPageStart = new LongTech.UI.Controls.TabPage();
+      this.ButtonManageCurrencies = new LongTech.UI.Controls.Button();
+      this.label4 = new LongTech.UI.Controls.Label();
+      this.ButtonNewCurrency = new LongTech.UI.Controls.Button();
+      this.label3 = new LongTech.UI.Controls.Label();
+      this.label2 = new LongTech.UI.Controls.Label();
+      this.label1 = new LongTech.UI.Controls.Label();
+      this.PictureBoxLogo = new LongTech.UI.Controls.PictureBox();
       this.MenuStrip1 = new System.Windows.Forms.MenuStrip();
       this.FileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
       this.NewCurrencyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -263,7 +263,7 @@
 
     #endregion
 
-    private System.Windows.Forms.TabControl TabControlWallet;
+    private LongTech.UI.Controls.TabControl TabControlWallet;
     private System.Windows.Forms.MenuStrip MenuStrip1;
     private System.Windows.Forms.ToolStripMenuItem FileToolStripMenuItem;
     private System.Windows.Forms.ToolStripMenuItem NewCurrencyToolStripMenuItem;
@@ -274,14 +274,14 @@
     private System.Windows.Forms.StatusStrip StatusStrip1;
     private System.Windows.Forms.ToolStripProgressBar ToolStripProgressBar1;
     private System.Windows.Forms.ToolStripStatusLabel ToolStripStatusLabel1;
-    private System.Windows.Forms.TabPage TabPageStart;
-    private System.Windows.Forms.Button ButtonNewCurrency;
-    private System.Windows.Forms.Label label3;
-    private System.Windows.Forms.Label label2;
-    private System.Windows.Forms.Label label1;
-    private System.Windows.Forms.PictureBox PictureBoxLogo;
-    private System.Windows.Forms.Button ButtonManageCurrencies;
-    private System.Windows.Forms.Label label4;
+    private LongTech.UI.Controls.TabPage TabPageStart;
+    private LongTech.UI.Controls.Button ButtonNewCurrency;
+    private LongTech.UI.Controls.Label label3;
+    private LongTech.UI.Controls.Label label2;
+    private LongTech.UI.Controls.Label label1;
+    private LongTech.UI.Controls.PictureBox PictureBoxLogo;
+    private LongTech.UI.Controls.Button ButtonManageCurrencies;
+    private LongTech.UI.Controls.Label label4;
     private System.Windows.Forms.ToolStripMenuItem ManageCurrenciesToolStripMenuItem;
   }
 }
