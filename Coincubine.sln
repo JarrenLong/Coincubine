@@ -1,25 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coincubine", "Coincubine.csproj", "{A935F99D-BF0D-4F48-9615-92A5A9279AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coincubine", "Coincubine.csproj", "{56E47A40-1DD0-46A9-BE37-4E29616EB7D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug-Net45|Any CPU = Debug-Net45|Any CPU
-		Release-Net45|Any CPU = Release-Net45|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Debug-Net45|Any CPU.ActiveCfg = Debug-Net45|Any CPU
-		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Debug-Net45|Any CPU.Build.0 = Debug-Net45|Any CPU
-		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Release-Net45|Any CPU.ActiveCfg = Release-Net45|Any CPU
-		{A935F99D-BF0D-4F48-9615-92A5A9279AF8}.Release-Net45|Any CPU.Build.0 = Release-Net45|Any CPU
+		{56E47A40-1DD0-46A9-BE37-4E29616EB7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E47A40-1DD0-46A9-BE37-4E29616EB7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E47A40-1DD0-46A9-BE37-4E29616EB7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E47A40-1DD0-46A9-BE37-4E29616EB7D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2B8CAE1E-133F-43F4-86AC-B3746317D4D3}
+		SolutionGuid = {090E1AD9-8F87-4EAB-893A-6F8112734793}
 	EndGlobalSection
 EndGlobal
